@@ -23,7 +23,8 @@ const App = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        gap: '15px'
+        gap: '15px',
+        marginTop: '50px'
       }}
     >
       {comments.map(comment => (
